@@ -1,0 +1,105 @@
+body{
+    background-color: #ccddff;
+    text-align: center;
+    box-sizing: border-box;
+}
+.container
+{
+    background-color: rgb(7, 2,71);
+    border-radius: 10px;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+    text-align: center;
+    padding: 20px;
+}
+.header
+{
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+Input[type=text]
+{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-left: 60px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.btn
+{
+    background-color:rgb(240, 13, 51);
+    margin-left: 30px;
+    width: 70px;
+    margin: 10px 10px;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+.list-heading
+{
+    display: block;
+    color: red;
+   font-size: 20px;
+   display: flex;
+   width: 60%;
+}
+.para
+{
+    display: flex;
+    justify-content: center;
+    background-color: #ff4da6	;
+    border-radius: 5px;
+}
+.listdata
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;   
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.btnPosition
+{
+  background-color: #ffcc66;
+  margin-left: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  border: none;
+  
+}
+.btnPosition:hover
+{
+  background-color: pink;
+}
+.removeAllbtn
+{
+    background-color: rgb(240, 13, 51);
+    margin-top: 20px;
+    color: black;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.removeAllbtn:hover{
+    background-color: aquamarine;
+}
